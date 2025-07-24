@@ -36,6 +36,47 @@
   text-decoration: none;
   color: black;
 }
+
+.home{
+    font-weight: bold;
+}
+.image-title{
+    margin-top: 152px;
+    justify-content: space-between;
+    align-items: end;
+}
+.title-description{
+    max-width: 580px;
+    align-content: center;
+}
+.fresh-title{
+     font-size: 4rem;
+     margin-bottom: 13px;
+}
+.color-text {
+    color: #e95a08;
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
 .display-flex{
   display: flex;
+}
+.description{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.btn{
+    background-color: #e95a08;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+}
+.shop-now-btn{
+    border: none;
+    background: none;
+    color: white;
+    font-weight: 600;
 }
