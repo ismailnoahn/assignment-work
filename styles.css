@@ -92,6 +92,11 @@
     font-size: 2rem;
     margin-bottom: 10px;
 }
+.card img{
+    width: 100%;
+    height: auto;
+}
+
 .card-section{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -100,12 +105,13 @@
     place-content: center;
     padding: 0 15px;
 }
-.card{
+.card {
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .flower-title{ 
     font-weight: 500;
 }
@@ -134,8 +140,18 @@
 }
 .flower-lover-title-desc ul{
     margin-left: 20px;
-
-
-
+}
+.flower-lover-title{
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.badge img {
+    width: 280px;
+    height: 280px;
+}
+.badge {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
