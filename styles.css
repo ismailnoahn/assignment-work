@@ -80,3 +80,62 @@
     color: white;
     font-weight: 600;
 }
+.title-card-container{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.our-title-desc{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card-title{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+    place-content: center;
+    padding: 0 15px;
+}
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.flower-title{ 
+    font-weight: 500;
+}
+.price{
+    font-weight: bold;
+}
+.flower-lover-section {
+    margin-top: 120px;
+}
+.store-title{
+    position: relative;
+    justify-content: center;
+    gap: 20px;
+}
+.store-photo{
+    height: auto;
+}
+.flower-lover-title-desc{
+    width: 30%;
+    margin-top: 50px;
+
+}
+.flower-lover-title-desc ul li{
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.flower-lover-title-desc ul{
+    margin-left: 20px;
+
+
+
+}
+
