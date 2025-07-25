@@ -158,6 +158,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+.rotate-logo {
+  width: 100px;
+  animation: spin 25s linear infinite;
+}
+  
 .challenge-part {
   margin-top: 120px;
 }
