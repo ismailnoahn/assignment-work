@@ -4,7 +4,7 @@
 }
 
 
-.noto-serif-normal {
+.noto-serif {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -53,9 +53,13 @@
      font-size: 4rem;
      margin-bottom: 13px;
 }
+.colour-text-one{
+    color: #e95a08;
+}
 .color-text {
     color: #e95a08;
 }
+
 .container {
     max-width: 90%;
     margin: 0 auto;
@@ -154,62 +158,65 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.challenge-part{
-    margin-top: 120px;
+.challenge-part {
+  margin-top: 120px;
 }
-.box-container{
-    margin: 0 auto;
-    display: flex;
-    gap: 20px;
+
+.box-container {
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
 }
 .flower-one {
-    width: 300px;
-    height: 200px;
-    background-image: url(assets/deal-bloom.png);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 300px;
+  height: 200px;
+  background-image: url(assets/deal-bloom.png);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .flower-two {
-    width: 300px;
-    height: 200px;
-    background-image: url(assets/deal-ana.png);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 300px;
+  height: 200px;
+  background-image: url(assets/deal-ana.png);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.flower-three{
-    width: 80%;
-    height: auto;
-    background-image: url(assets/deal-zabo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.zabo-title{
-    font-size: 2.8rem;
-}
-.zabo-title-link{
-    font-size: 1.5rem;
-    margin-top: 10px;
-}
-.content-box{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.btn-text{
-    color: white;
-    text-align: center;
 
+.flower-three {
+  width: 80%;
+  height: auto;
+  background-image: url(assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.zabo-title {
+  font-size: 2.8rem;
+}
+.zabo-title-link {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.content-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn-text {
+  color: white;
+  text-align: center;
 }
 .input-btn-container{
     text-align: center;
@@ -284,6 +291,135 @@
 .icon-container img {
     width: 30px;
 }
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+  
+  .for-all-description {
+    font-size: 0.8rem;
+  }
+  .nav-item li {
+    display: none;
+  }
+  .navbar img {
+    height: 40px;
+  }
 
+  .image-title {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+  .banner-img {
+    width: 100%;
+  }
+
+  .fresh-title {
+    font-size: 1.8rem;
+  }
+  .title-description {
+    padding: 10px;
+  }
+
+  .our-title-desc {
+    padding: 5px;
+  }
+
+  .title-card-container {
+    overflow: hidden;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    gap: 0px;
+  }
+
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  
+  .flower-lover-section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .badge {
+    display: none;
+  }
+
+  .store-title {
+    flex-direction: column;
+  }
+  .store-photo img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .flower-lover-title {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+  }
+  .flower-lover-title-desc {
+    width: 100%;
+  }
+
+  .box-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flower-one,
+  .flower-two,
+  .flower-three {
+    width: 90%;
+    background-size: cover;
+  }
+  .flower-three {
+    height: 200px;
+  }
+  .flower-three h2 {
+    font-size: 1.8rem;
+  }
+
+  .input-btn-container {
+    max-width: 100%;
+  }
+  .email {
+    width: 200px;
+  }
+  .submit {
+    width: 100px;
+  }
+  .bunch-title {
+    font-size: 1.3rem;
+  }
+
+
+  .footer-section-content {
+    max-width: 100%;
+    margin-top: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: start;
+  }
+  .footer-second {
+    margin-top: 20px;
+  }
+  .icon-container {
+    margin-top: 20px;
+  }
+}
 
 
